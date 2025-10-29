@@ -4,11 +4,6 @@
 -- elimina tablas si existen y vuelve a crearlas.
 -- Pensado para ejecutarse con psql.
 -- ============================================
--- 0) (Opcional) Crear la base de datos.
---    Si ya existe, comenta la siguiente línea.
-CREATE DATABASE vuelos_min;
--- 1) Conectarse a la base de datos recién creada (o existente).
-\ c vuelos_min -- 2) Eliminar tablas si existen (orden respetando llaves foráneas).
 DROP TABLE IF EXISTS bookings;
 DROP TABLE IF EXISTS flights;
 DROP TABLE IF EXISTS passengers;

@@ -82,6 +82,18 @@ vuelos_min/
 
 ## Paso 1: Crear la base y las tablas (01_schema.sql)
 
+Primero crea la base de datos y las tablas ejecutando el script:
+
+```sql
+CREATE DATABASE vuelos_min;
+```
+
+Conéctate a la base de datos recién creada.
+
+```sql
+\c vuelos_min
+```
+
 1. Abre **psql** y asegúrate de estar en la carpeta del proyecto (`\pwd` debe mostrar `.../vuelos_min`).
 2. Ejecuta el script:
 
